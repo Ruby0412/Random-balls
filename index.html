@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        h2 {
+
+            magrin-top: 20px;
+            text-align: center;
+        }
+
+        canvas {
+            background: white;
+        }
+
+
+
+        .depth {
+            display: block;
+            border: 1px solid rgba(255,255,255,0.6);
+            background: linear-gradient(#eee, #fff);
+            transition: all 0.3s ease-out;
+            box-shadow:
+                    inset 0 1px 4px rgba(0,0,0,0.4);
+            padding: 5px;
+            color: #F00;
+            text-align: center;
+            font-family:customfont;
+            margin: 0 auto;
+        }
+
+        .depth1 {
+            display: block;
+
+            text-align: center;
+            font-family:customfont;
+            margin: 0 auto;
+        }
+
+
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+<h2 >
+    Random Moving Balls...
+</h2>
+<canvas id="canvas" width="450px" height="350px" style="border:1px solid black; display: block;margin:0 auto;">Hello World</canvas>
+
+<h2 >
+    A Drawing tool: changing the values on the bars to make a beautiful shape!
+</h2>
+
+<h3  class="depth1"> radius</h3>
+<output  class="depth1" id = "radius"></output>
+<input class="depth" id="slider1"  type="range" min="0" max="150"/>
+<output  class="depth1" id = "radius1"></output>
+<input class="depth" id="slider1_1"  type="range" min="0" max="150"/>
+
+<h3  class="depth1"> Points </h3>
+<output class="depth1" id = "numOfPoints"></output>
+<input class="depth" id="slider2"  type="range" min="2" max="25" />
+<output class="depth1" id = "numOfPoints1"></output>
+<input class="depth" id="slider2_1"  type="range" min="2" max="25" />
+</div>
+
+<h3  class="depth1"> Color </h3>
+<output class="depth1" id = "color"></output>
+<input class="depth" id="slider3"  type="range" min="1" max="9"/>
+<output class="depth1" id = "color1"></output>
+<input class="depth" id="slider3_1"  type="range" min="1" max="9"/>
+
+
+
+
+
+<canvas id="myCanvas" width="450px" height="350px" style="border:1px solid black; display: block;margin:0 auto;">Hello World</canvas>
+
+
+
+<script src="canvas.js">
+
+</script>
+
+</body>
+</html>
